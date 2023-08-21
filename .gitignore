@@ -1,0 +1,31 @@
+# Dependency directories
+node_modules/
+dist/
+build/
+
+# Environment variables
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# Logs and temporary files
+*.log
+*.pid
+
+# Editor and IDE files
+.vscode/
+.idea/
+.DS_Store
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Environment-specific npm packages
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# EditorConfig file
+.editorconfig
